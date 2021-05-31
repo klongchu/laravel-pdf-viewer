@@ -1,7 +1,7 @@
 ## Laravel PDF VIEWER
 
-[![Latest Stable Version](https://poser.pugx.org/davcpas1234/laravel-pdf-viewer/v/stable)](https://packagist.org/packages/goodnesskay/laravelpdfviewer)
-[![License](https://poser.pugx.org/davcpas1234/laravel-pdf-viewer/license)](https://packagist.org/packages/goodnesskay/laravelpdfviewer)
+[![Latest Stable Version](https://poser.pugx.org/davcpas1234/laravel-pdf-viewer/v/stable)](https://packagist.org/packages/davcpas1234/laravelpdfviewer)
+[![License](https://poser.pugx.org/davcpas1234/laravel-pdf-viewer/license)](https://packagist.org/packages/davcpas1234/laravelpdfviewer)
 [![Build Status](https://scrutinizer-ci.com/g/davcpas1234/laravel-pdf-viewer/badges/build.png?b=master)](https://scrutinizer-ci.com/g/goodnesskay/LARAVEL-PDF-VIEWER/build-status/master)
 
 > This package is meant to help with viewing portable document file(PDF) on the web seamlessly when developing with Laravel. The package makes use of [ViewerJS](http://viewerjs.org) 
