@@ -1,20 +1,31 @@
 {
     "name": "goodnesskay/laravelpdfviewer",
     "description": "A Laravel Package for viewing PDF files or documents on Web App",
-    "type": "laravel-package",
+    "version": "1.0.1",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GoodnessKay\\LaravelPdfViewer\\": "src/"
+        }
+    },
     "keywords": ["laravel","pdf-viewer","laravel-viewerJS","ViewerJS"],
     "authors": [
         {
             "name": "Goodness Toluwanimi Kayode",
             "email": "gtkbrain@gmail.com"
+        },
+        {
+            "name": "David Passmore",
+            "email": "david.passmore@verscreative.co.uk"
         }
     ],
     "minimum-stability": "stable",
     "require": {},
-    "autoload": {
-        "psr-4": {
-            "GoodnessKay\\LaravelPdfViewer\\": "src/"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Goodnesskay\\LaravelPdfViewer\\LaravelPdfViewerServiceProvider"
+            ]
         }
     }
 }
