@@ -1,8 +1,8 @@
 ## Laravel PDF VIEWER
 
-[![Latest Stable Version](https://poser.pugx.org/goodnesskay/laravelpdfviewer/v/stable)](https://packagist.org/packages/goodnesskay/laravelpdfviewer)
-[![License](https://poser.pugx.org/goodnesskay/laravelpdfviewer/license)](https://packagist.org/packages/goodnesskay/laravelpdfviewer)
-[![Build Status](https://scrutinizer-ci.com/g/goodnesskay/LARAVEL-PDF-VIEWER/badges/build.png?b=master)](https://scrutinizer-ci.com/g/goodnesskay/LARAVEL-PDF-VIEWER/build-status/master)
+[![Latest Stable Version](https://poser.pugx.org/davcpas1234/laravel-pdf-viewer/v/stable)](https://packagist.org/packages/goodnesskay/laravelpdfviewer)
+[![License](https://poser.pugx.org/davcpas1234/laravel-pdf-viewer/license)](https://packagist.org/packages/goodnesskay/laravelpdfviewer)
+[![Build Status](https://scrutinizer-ci.com/g/davcpas1234/laravel-pdf-viewer/badges/build.png?b=master)](https://scrutinizer-ci.com/g/goodnesskay/LARAVEL-PDF-VIEWER/build-status/master)
 
 > This package is meant to help with viewing portable document file(PDF) on the web seamlessly when developing with Laravel. The package makes use of [ViewerJS](http://viewerjs.org) 
 
@@ -16,19 +16,19 @@
 To install into your project, run the command below in your terminal.
 
 ```
-composer require goodnesskay/laravelpdfviewer
+composer require davcpas1234/laravelpdfviewer
 ```
 
 Once the package is done being installed, register the service provider. Open `config/app.php` and add the following to the `providers` key.
 
  ```
- Goodnesskay\LaravelPdfViewer\LaravelPdfViewerServiceProvider::class,
+ Davcpas1234\LaravelPdfViewer\LaravelPdfViewerServiceProvider::class,
  ```
  
  ## Configure
  Run this in your terminal:
  ```
-php artisan vendor:publish --provider="Goodnesskay\LaravelPdfViewer\LaravelPdfViewerServiceProvider" 
+php artisan vendor:publish --provider="Davcpas1234\LaravelPdfViewer\LaravelPdfViewerServiceProvider" 
 ```
 It will publish a folder named `laraview` to the root folder of your project.
 
