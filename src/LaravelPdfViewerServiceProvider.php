@@ -4,12 +4,13 @@
  * This file is part of the Laravel PDF VIEWER package.
  *
  * (c) Gooodness Kayode <gtkbrain@gmail.com>
+ * (c) David Passmore <david.passmore@verscreative.co.uk>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Goodnesskay\LaravelPdfViewer;
+namespace Davcpas1234\LaravelPdfViewer;
 
 use Illuminate\Support\ServiceProvider;
 
