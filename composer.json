@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "GoodnessKay\\LaravelPdfViewer\\": "src/"
+            "Davcpas1234\\LaravelPdfViewer\\": "src/"
         }
     },
     "keywords": ["laravel","pdf-viewer","laravel-viewerJS","ViewerJS"],
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Goodnesskay\\LaravelPdfViewer\\LaravelPdfViewerServiceProvider"
+                "Davcpas1234\\LaravelPdfViewer\\LaravelPdfViewerServiceProvider"
             ]
         }
     }
