@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Davcpas1234\LaravelPdfViewer;
+namespace Klongchu\LaravelPdfViewer;
 
 use Illuminate\Support\ServiceProvider;
 

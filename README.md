@@ -16,19 +16,19 @@
 To install into your project, run the command below in your terminal.
 
 ```
-composer require davcpas1234/laravelpdfviewer
+composer require klongchu/laravelpdfviewer
 ```
 
 Once the package is done being installed, register the service provider. Open `config/app.php` and add the following to the `providers` key.
 
  ```
- Davcpas1234\LaravelPdfViewer\LaravelPdfViewerServiceProvider::class,
+ Klongchu\LaravelPdfViewer\LaravelPdfViewerServiceProvider::class,
  ```
  
  ## Configure
  Run this in your terminal:
  ```
-php artisan vendor:publish --provider="Davcpas1234\LaravelPdfViewer\LaravelPdfViewerServiceProvider" 
+php artisan vendor:publish --provider="Klongchu\LaravelPdfViewer\LaravelPdfViewerServiceProvider" 
 ```
 It will publish a folder named `laraview` to the root folder of your project.
 

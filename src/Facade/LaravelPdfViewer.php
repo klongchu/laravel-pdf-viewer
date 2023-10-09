@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Davcpas1234\LaravelPdfViewer\Facade;
+namespace Klongchu\LaravelPdfViewer\Facade;
 use Illuminate\Support\Facades\Facade;
 
 class LaravelPdfViewer extends Facade
